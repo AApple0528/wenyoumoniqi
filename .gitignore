@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# Vite / TypeScript
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
